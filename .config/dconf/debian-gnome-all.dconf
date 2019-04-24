@@ -1,0 +1,129 @@
+[org/gnome/shell/keybindings]
+toggle-message-tray=['<Super>equal', '<Super>m']
+
+[org/gnome/software]
+first-run=false
+check-timestamp=int64 1556109509
+
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-battery-type='nothing'
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+sleep-inactive-battery-timeout=1800
+
+[org/gnome/settings-daemon/peripherals/keyboard]
+numlock-state='off'
+
+[org/gnome/gnome-system-monitor]
+show-dependencies=false
+current-tab='processes'
+maximized=false
+show-whose-processes='user'
+window-state=(700, 500, 50, 50)
+
+[org/gnome/gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=0
+
+[org/gnome/evolution-data-server]
+network-monitor-gio-name=''
+migrated=true
+
+[org/gnome/desktop/interface]
+text-scaling-factor=1.25
+gtk-im-module='gtk-im-context-simple'
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'Sundry']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+translate=true
+categories=['X-GNOME-Utilities']
+apps=['org.gnome.baobab.desktop', 'deja-dup-preferences.desktop', 'eog.desktop', 'evince.desktop', 'org.gnome.FileRoller.desktop', 'gnome-calculator.desktop', 'gnome-dictionary.desktop', 'org.gnome.Characters.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Screenshot.desktop', 'gnome-system-log.desktop', 'gnome-system-monitor.desktop', 'gnome-tweak-tool.desktop', 'gucharmap.desktop', 'seahorse.desktop', 'vinagre.desktop', 'yelp.desktop']
+name='X-GNOME-Utilities.directory'
+
+[org/gnome/desktop/app-folders/folders/Sundry]
+translate=true
+categories=['X-GNOME-Sundry']
+apps=['alacarte.desktop', 'authconfig.desktop', 'ca.desrt.dconf-editor.desktop', 'fedora-release-notes.desktop', 'firewall-config.desktop', 'flash-player-properties.desktop', 'gconf-editor.desktop', 'gnome-abrt.desktop', 'gnome-power-statistics.desktop', 'ibus-setup-anthy.desktop', 'ibus-setup.desktop', 'ibus-setup-hangul.desktop', 'ibus-setup-libbopomofo.desktop', 'ibus-setup-libpinyin.desktop', 'ibus-setup-m17n.desktop', 'ibus-setup-typing-booster.desktop', 'im-chooser.desktop', 'itweb-settings.desktop', 'jhbuild.desktop', 'javaws.desktop', 'java-1.7.0-openjdk-jconsole.desktop', 'java-1.7.0-openjdk-policytool.desktop', 'log4j-chainsaw.desktop', 'log4j-logfactor5.desktop', 'nm-connection-editor.desktop', 'orca.desktop', 'setroubleshoot.desktop', 'system-config-date.desktop', 'system-config-firewall.desktop', 'system-config-keyboard.desktop', 'system-config-language.desktop', 'system-config-printer.desktop', 'system-config-users.desktop', 'vino-preferences.desktop']
+name='X-GNOME-Sundry.directory'
+
+[org/gnome/desktop/screensaver]
+picture-uri='file:////usr/share/gnome-control-center/pixmaps/noise-texture-light.png'
+color-shading-type='solid'
+primary-color='#425265'
+picture-options='wallpaper'
+secondary-color='#425265'
+
+[org/gnome/desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[org/gnome/desktop/session]
+idle-delay=uint32 300
+
+[org/gnome/desktop/privacy]
+remember-recent-files=true
+
+[org/gnome/desktop/wm/keybindings]
+switch-input-source-backward=['<Shift><Super>period']
+switch-input-source=['<Super>period']
+
+[org/gnome/desktop/datetime]
+automatic-timezone=true
+
+[org/gnome/desktop/background]
+picture-uri='file:///usr/share/desktop-base/joy-theme/wallpaper/gnome-background.xml'
+color-shading-type='horizontal'
+primary-color='#0099cc'
+picture-options='zoom'
+secondary-color='#006699'
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'br')]
+xkb-options=@as []
+
+[org/gnome/terminal/legacy]
+new-terminal-mode='tab'
+schema-version=uint32 3
+theme-variant='dark'
+
+[org/gnome/terminal/legacy/keybindings]
+new-tab='<Super>t'
+switch-to-tab-1='<Super>1'
+switch-to-tab-2='<Super>2'
+switch-to-tab-3='<Super>3'
+copy='<Super>c'
+switch-to-tab-5='<Super>5'
+preferences='<Super>comma'
+switch-to-tab-10='<Super>0'
+new-window='<Super>n'
+close-tab='<Super>w'
+find='<Super>f'
+switch-to-tab-6='<Super>6'
+close-window='<Super>q'
+switch-to-tab-4='<Super>4'
+switch-to-tab-9='<Super>9'
+find-next='<Primary><Shift>g'
+switch-to-tab-7='<Super>7'
+switch-to-tab-8='<Super>8'
+help='F1'
+paste='<Super>v'
+select-all='<Super>a'
+profile-preferences='<Super>semicolon'
+
+[org/gnome/terminal/legacy/profiles:/:6cecbb12-2b8d-4d38-8c4c-6c52ae1e78d4]
+default-size-columns=100
+default-size-rows=28
+cursor-shape='block'
+palette=['rgb(46,52,54)', 'rgb(204,0,0)', 'rgb(78,154,6)', 'rgb(196,160,0)', 'rgb(52,101,164)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+scrollbar-policy='never'
+visible-name='Gamino Default Terminal'
+scroll-on-keystroke=true
+
+[org/gnome/terminal/legacy/profiles:]
+list=['6cecbb12-2b8d-4d38-8c4c-6c52ae1e78d4']
+default='6cecbb12-2b8d-4d38-8c4c-6c52ae1e78d4'
+
+[org/gtk/settings/color-chooser]
+selected-color=(true, 0.30588235294117644, 0.60392156862745094, 0.023529411764705889, 1.0)
+custom-colors=[(0.30588235294117644, 0.60392156862745094, 0.023529411764705889, 1.0)]
