@@ -50,3 +50,9 @@ augroup END
 if has('syntax') && has('eval')
   packadd! matchit
 endif
+
+" Personal settings
+"
+set number
+set clipboard=unnamedplus
+
